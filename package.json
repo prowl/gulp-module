@@ -1,0 +1,24 @@
+{
+  "name": "prowl-gulp-module",
+  "version": "0.0.1",
+  "description": "Gulp workflow for individual modules",
+  "main": "lib/gulp.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prowl/gulp-module.git"
+  },
+  "keywords": [
+    "Gulp",
+    "Prowl",
+    "Workflow"
+  ],
+  "author": "Joshwa Fugett <jfugett27@gmail.com> (http://thotjs.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prowl/gulp-module/issues"
+  },
+  "homepage": "https://github.com/prowl/gulp-module"
+}

@@ -1,6 +1,6 @@
 {
   "name": "prowl-gulp-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp workflow for individual modules",
   "main": "lib/gulp.js",
   "scripts": {
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/prowl/gulp-module/issues"
   },
-  "homepage": "https://github.com/prowl/gulp-module"
+  "homepage": "https://github.com/prowl/gulp-module",
+  "dependencies": {
+    "gulp-help": "^0.1.11",
+    "prowl-gulp-module-soften": "0.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7"
+  }
 }

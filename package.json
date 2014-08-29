@@ -1,6 +1,6 @@
 {
   "name": "gulp-module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Gulp workflow for individual modules",
   "main": "lib/gulp.js",
   "scripts": {
@@ -25,11 +25,9 @@
   "dependencies": {
     "gulp": "^3.8.7",
     "gulp-help": "^0.1.11",
+    "gulp-module-jscs": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jscs/-/latest.tgz",
     "gulp-module-jshint": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jshint/-/latest.tgz",
     "gulp-module-jsvalidate": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jsvalidate/-/latest.tgz",
     "gulp-module-soften": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-soften/-/latest.tgz"
-  },
-  "devDependencies": {
-    "gulp": "^3.8.7"
   }
 }

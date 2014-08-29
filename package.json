@@ -23,7 +23,9 @@
   "homepage": "https://github.com/prowl/gulp-module",
   "private": true,
   "dependencies": {
+    "gulp": "^3.8.7",
     "gulp-help": "^0.1.11",
+    "gulp-module-jshint": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jshint/-/latest.tgz",
     "gulp-module-jsvalidate": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jsvalidate/-/latest.tgz",
     "gulp-module-soften": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-soften/-/latest.tgz"
   },

@@ -1,13 +1,14 @@
 {
   "reports": [
     "gulpfile.js.json",
-    "lib\gulp.js.json"
+    "lib/gulp.js.json",
+    "test/index.js.json"
   ],
-  "baseDir": "c:\var\node\prowl\modules\gulp-module\",
-  "cwd": "c:\var\node\prowl\modules\gulp-module",
+  "baseDir": "/var/node/prowl/modules/gulp-module/",
+  "cwd": "/var/node/prowl/modules/gulp-module",
   "reporterName": "gulp-escomplex-reporter-json",
   "reporterVersion": "0.1.4",
   "analysis": "gulp-escomplex",
   "analysisVersion": "1.0.0",
-  "created": "2014-09-02T07:47:03.753Z"
+  "created": "2014-09-02T20:27:22.514Z"
 }

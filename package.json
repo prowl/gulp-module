@@ -25,6 +25,7 @@
   "dependencies": {
     "gulp": "^3.8.7",
     "gulp-help": "^0.1.11",
+    "gulp-module-complexity": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-complexity/-/latest.tgz",
     "gulp-module-jscpd": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jscpd/-/latest.tgz",
     "gulp-module-jscs": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jscs/-/latest.tgz",
     "gulp-module-jshint": "https://npm.fury.io/GTpAPYjxGn3jnpGRdN3L/thotjs/gulp-module-jshint/-/latest.tgz",

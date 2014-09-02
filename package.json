@@ -1,6 +1,6 @@
 {
   "name": "gulp-module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Gulp workflow for individual modules",
   "main": "lib/gulp.js",
   "scripts": {

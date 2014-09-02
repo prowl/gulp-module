@@ -1,0 +1,625 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 43,
+      "physical": 150
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 8,
+        "total": 71,
+        "identifiers": [
+          "var",
+          "=",
+          "function",
+          "()",
+          ".",
+          "{}",
+          ":",
+          "[]"
+        ]
+      },
+      "operands": {
+        "distinct": 60,
+        "total": 128,
+        "identifiers": [
+          "\"use strict\"",
+          "gulp",
+          null,
+          "config",
+          "setupGulp",
+          "gulpRef",
+          "conf",
+          "\"gulp-help\"",
+          "require",
+          "defineDev",
+          "defineBuild",
+          "defineLint",
+          "defineComplexity",
+          "defineTest",
+          "devTask",
+          "\"Dev Task Finished\"",
+          "console",
+          "log",
+          "\"default\"",
+          "\"Development Workflow\"",
+          "<anonymous>",
+          "alias",
+          "\"dev\"",
+          "task",
+          "testTask",
+          "\"Tests Finished\"",
+          "\"test\"",
+          "\"Runs tests against the code\"",
+          "buildTask",
+          "\"Build Task Finished\"",
+          "\"build\"",
+          "\"Workflow to build the module\"",
+          "\"lint\"",
+          "\"complexity\"",
+          "lintTask",
+          "\"Finished Linting\"",
+          "\"gulp-module-soften\"",
+          "\"gulp-module-jsvalidate\"",
+          "\"gulp-module-jshint\"",
+          "\"gulp-module-jscs\"",
+          "\"gulp-module-jscpd\"",
+          "\"Lints your source files\"",
+          "\"soften\"",
+          "\"jsvalidate\"",
+          "\"jshint\"",
+          "\"jscpd\"",
+          "\"jscs\"",
+          "complexityTask",
+          "\"Complexity Report Finished\"",
+          "\"gulp-module-size\"",
+          "\"gulp-module-complexity\"",
+          "\"gulp-module-plato\"",
+          "\"gulp-module-escomplex\"",
+          "\"Generates Complexity Report\"",
+          "\"size\"",
+          "\"comp\"",
+          "\"plato\"",
+          "\"escomplex\"",
+          "module",
+          "exports"
+        ]
+      },
+      "length": 199,
+      "vocabulary": 68,
+      "difficulty": 8.533333333333333,
+      "volume": 1211.4051054088177,
+      "effort": 10337.323566155244,
+      "bugs": 0.40380170180293923,
+      "time": 574.2957536752914
+    },
+    "params": 2,
+    "line": 1,
+    "cyclomaticDensity": 2.3255813953488373
+  },
+  "functions": [
+    {
+      "name": "setupGulp",
+      "sloc": {
+        "logical": 8,
+        "physical": 21
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 9,
+          "identifiers": [
+            "=",
+            "()"
+          ]
+        },
+        "operands": {
+          "distinct": 11,
+          "total": 14,
+          "identifiers": [
+            "gulpRef",
+            "conf",
+            "gulp",
+            "config",
+            "\"gulp-help\"",
+            "require",
+            "defineDev",
+            "defineBuild",
+            "defineLint",
+            "defineComplexity",
+            "defineTest"
+          ]
+        },
+        "length": 23,
+        "vocabulary": 13,
+        "difficulty": 1.2727272727272727,
+        "volume": 85.11011351724513,
+        "effort": 108.32196265831197,
+        "bugs": 0.028370037839081708,
+        "time": 6.017886814350665
+      },
+      "params": 2,
+      "line": 6,
+      "cyclomaticDensity": 12.5
+    },
+    {
+      "name": "devTask",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 2,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 3,
+          "total": 3,
+          "identifiers": [
+            "\"Dev Task Finished\"",
+            "console",
+            "log"
+          ]
+        },
+        "length": 5,
+        "vocabulary": 5,
+        "difficulty": 1,
+        "volume": 11.60964047443681,
+        "effort": 11.60964047443681,
+        "bugs": 0.0038698801581456034,
+        "time": 0.6449800263576005
+      },
+      "params": 0,
+      "line": 31,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "defineDev",
+      "sloc": {
+        "logical": 2,
+        "physical": 5
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 5,
+          "total": 5,
+          "identifiers": [
+            "()",
+            "{}",
+            ":",
+            "[]",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 8,
+          "total": 9,
+          "identifiers": [
+            "\"default\"",
+            "\"Development Workflow\"",
+            "devTask",
+            "<anonymous>",
+            "alias",
+            "\"dev\"",
+            "gulp",
+            "task"
+          ]
+        },
+        "length": 14,
+        "vocabulary": 13,
+        "difficulty": 2.8125,
+        "volume": 51.80615605397529,
+        "effort": 145.70481390180552,
+        "bugs": 0.01726871868465843,
+        "time": 8.09471188343364
+      },
+      "params": 0,
+      "line": 39,
+      "cyclomaticDensity": 50
+    },
+    {
+      "name": "testTask",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 2,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 3,
+          "total": 3,
+          "identifiers": [
+            "\"Tests Finished\"",
+            "console",
+            "log"
+          ]
+        },
+        "length": 5,
+        "vocabulary": 5,
+        "difficulty": 1,
+        "volume": 11.60964047443681,
+        "effort": 11.60964047443681,
+        "bugs": 0.0038698801581456034,
+        "time": 0.6449800263576005
+      },
+      "params": 0,
+      "line": 48,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "defineTest",
+      "sloc": {
+        "logical": 1,
+        "physical": 9
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 3,
+          "identifiers": [
+            "()",
+            "[]",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 6,
+          "total": 6,
+          "identifiers": [
+            "\"test\"",
+            "\"Runs tests against the code\"",
+            "<anonymous>",
+            "testTask",
+            "gulp",
+            "task"
+          ]
+        },
+        "length": 9,
+        "vocabulary": 9,
+        "difficulty": 1.5,
+        "volume": 28.529325012980813,
+        "effort": 42.793987519471216,
+        "bugs": 0.009509775004326938,
+        "time": 2.377443751081734
+      },
+      "params": 0,
+      "line": 52,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "buildTask",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 2,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 3,
+          "total": 3,
+          "identifiers": [
+            "\"Build Task Finished\"",
+            "console",
+            "log"
+          ]
+        },
+        "length": 5,
+        "vocabulary": 5,
+        "difficulty": 1,
+        "volume": 11.60964047443681,
+        "effort": 11.60964047443681,
+        "bugs": 0.0038698801581456034,
+        "time": 0.6449800263576005
+      },
+      "params": 0,
+      "line": 65,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "defineBuild",
+      "sloc": {
+        "logical": 1,
+        "physical": 16
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 3,
+          "identifiers": [
+            "()",
+            "[]",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 8,
+          "total": 8,
+          "identifiers": [
+            "\"build\"",
+            "\"Workflow to build the module\"",
+            "<anonymous>",
+            "\"lint\"",
+            "\"complexity\"",
+            "buildTask",
+            "gulp",
+            "task"
+          ]
+        },
+        "length": 11,
+        "vocabulary": 11,
+        "difficulty": 1.5,
+        "volume": 38.053747805010275,
+        "effort": 57.08062170751541,
+        "bugs": 0.012684582601670092,
+        "time": 3.171145650417523
+      },
+      "params": 0,
+      "line": 75,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "lintTask",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 2,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 3,
+          "total": 3,
+          "identifiers": [
+            "\"Finished Linting\"",
+            "console",
+            "log"
+          ]
+        },
+        "length": 5,
+        "vocabulary": 5,
+        "difficulty": 1,
+        "volume": 11.60964047443681,
+        "effort": 11.60964047443681,
+        "bugs": 0.0038698801581456034,
+        "time": 0.6449800263576005
+      },
+      "params": 0,
+      "line": 95,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "defineLint",
+      "sloc": {
+        "logical": 6,
+        "physical": 15
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 13,
+          "identifiers": [
+            "()",
+            "[]",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 18,
+          "total": 31,
+          "identifiers": [
+            "gulp",
+            "config",
+            "\"gulp-module-soften\"",
+            "require",
+            "\"gulp-module-jsvalidate\"",
+            "\"gulp-module-jshint\"",
+            "\"gulp-module-jscs\"",
+            "\"gulp-module-jscpd\"",
+            "\"lint\"",
+            "\"Lints your source files\"",
+            "<anonymous>",
+            "\"soften\"",
+            "\"jsvalidate\"",
+            "\"jshint\"",
+            "\"jscpd\"",
+            "\"jscs\"",
+            "lintTask",
+            "task"
+          ]
+        },
+        "length": 44,
+        "vocabulary": 21,
+        "difficulty": 2.5833333333333335,
+        "volume": 193.26196660226546,
+        "effort": 499.2600803891858,
+        "bugs": 0.06442065553408849,
+        "time": 27.736671132732546
+      },
+      "params": 0,
+      "line": 105,
+      "cyclomaticDensity": 16.666666666666664
+    },
+    {
+      "name": "complexityTask",
+      "sloc": {
+        "logical": 1,
+        "physical": 3
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 2,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 3,
+          "total": 3,
+          "identifiers": [
+            "\"Complexity Report Finished\"",
+            "console",
+            "log"
+          ]
+        },
+        "length": 5,
+        "vocabulary": 5,
+        "difficulty": 1,
+        "volume": 11.60964047443681,
+        "effort": 11.60964047443681,
+        "bugs": 0.0038698801581456034,
+        "time": 0.6449800263576005
+      },
+      "params": 0,
+      "line": 124,
+      "cyclomaticDensity": 100
+    },
+    {
+      "name": "defineComplexity",
+      "sloc": {
+        "logical": 5,
+        "physical": 15
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 11,
+          "identifiers": [
+            "()",
+            "[]",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 16,
+          "total": 26,
+          "identifiers": [
+            "gulp",
+            "config",
+            "\"gulp-module-size\"",
+            "require",
+            "\"gulp-module-complexity\"",
+            "\"gulp-module-plato\"",
+            "\"gulp-module-escomplex\"",
+            "\"complexity\"",
+            "\"Generates Complexity Report\"",
+            "<anonymous>",
+            "\"size\"",
+            "\"comp\"",
+            "\"plato\"",
+            "\"escomplex\"",
+            "complexityTask",
+            "task"
+          ]
+        },
+        "length": 37,
+        "vocabulary": 19,
+        "difficulty": 2.4375,
+        "volume": 157.17331799741265,
+        "effort": 383.1099626186933,
+        "bugs": 0.05239110599913755,
+        "time": 21.28388681214963
+      },
+      "params": 0,
+      "line": 134,
+      "cyclomaticDensity": 20
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 10,
+      "path": "gulp-help",
+      "type": "CommonJS"
+    },
+    {
+      "line": 106,
+      "path": "gulp-module-soften",
+      "type": "CommonJS"
+    },
+    {
+      "line": 107,
+      "path": "gulp-module-jsvalidate",
+      "type": "CommonJS"
+    },
+    {
+      "line": 108,
+      "path": "gulp-module-jshint",
+      "type": "CommonJS"
+    },
+    {
+      "line": 109,
+      "path": "gulp-module-jscs",
+      "type": "CommonJS"
+    },
+    {
+      "line": 110,
+      "path": "gulp-module-jscpd",
+      "type": "CommonJS"
+    },
+    {
+      "line": 135,
+      "path": "gulp-module-size",
+      "type": "CommonJS"
+    },
+    {
+      "line": 136,
+      "path": "gulp-module-complexity",
+      "type": "CommonJS"
+    },
+    {
+      "line": 137,
+      "path": "gulp-module-plato",
+      "type": "CommonJS"
+    },
+    {
+      "line": 138,
+      "path": "gulp-module-escomplex",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 81.61295896624213,
+  "params": 0.18181818181818182,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.0",
+    "fileName": "lib\gulp.js"
+  }
+}

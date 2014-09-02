@@ -1,14 +1,14 @@
 {
   "aggregate": {
     "sloc": {
-      "logical": 43,
+      "logical": 44,
       "physical": 150
     },
     "cyclomatic": 1,
     "halstead": {
       "operators": {
         "distinct": 8,
-        "total": 71,
+        "total": 73,
         "identifiers": [
           "var",
           "=",
@@ -21,8 +21,8 @@
         ]
       },
       "operands": {
-        "distinct": 60,
-        "total": 128,
+        "distinct": 62,
+        "total": 133,
         "identifiers": [
           "\"use strict\"",
           "gulp",
@@ -77,26 +77,28 @@
           "\"gulp-module-complexity\"",
           "\"gulp-module-plato\"",
           "\"gulp-module-escomplex\"",
+          "\"gulp-module-cost\"",
           "\"Generates Complexity Report\"",
           "\"size\"",
           "\"comp\"",
           "\"plato\"",
           "\"escomplex\"",
+          "\"cost\"",
           "module",
           "exports"
         ]
       },
-      "length": 199,
-      "vocabulary": 68,
-      "difficulty": 8.533333333333333,
-      "volume": 1211.4051054088177,
-      "effort": 10337.323566155244,
-      "bugs": 0.40380170180293923,
-      "time": 574.2957536752914
+      "length": 206,
+      "vocabulary": 70,
+      "difficulty": 8.580645161290322,
+      "volume": 1262.6323014906632,
+      "effort": 10834.199748274723,
+      "bugs": 0.4208774338302211,
+      "time": 601.8999860152624
     },
     "params": 2,
     "line": 1,
-    "cyclomaticDensity": 2.3255813953488373
+    "cyclomaticDensity": 2.272727272727273
   },
   "functions": [
     {
@@ -514,14 +516,14 @@
     {
       "name": "defineComplexity",
       "sloc": {
-        "logical": 5,
+        "logical": 6,
         "physical": 15
       },
       "cyclomatic": 1,
       "halstead": {
         "operators": {
           "distinct": 3,
-          "total": 11,
+          "total": 13,
           "identifiers": [
             "()",
             "[]",
@@ -529,8 +531,8 @@
           ]
         },
         "operands": {
-          "distinct": 16,
-          "total": 26,
+          "distinct": 18,
+          "total": 31,
           "identifiers": [
             "gulp",
             "config",
@@ -539,6 +541,7 @@
             "\"gulp-module-complexity\"",
             "\"gulp-module-plato\"",
             "\"gulp-module-escomplex\"",
+            "\"gulp-module-cost\"",
             "\"complexity\"",
             "\"Generates Complexity Report\"",
             "<anonymous>",
@@ -546,21 +549,22 @@
             "\"comp\"",
             "\"plato\"",
             "\"escomplex\"",
+            "\"cost\"",
             "complexityTask",
             "task"
           ]
         },
-        "length": 37,
-        "vocabulary": 19,
-        "difficulty": 2.4375,
-        "volume": 157.17331799741265,
-        "effort": 383.1099626186933,
-        "bugs": 0.05239110599913755,
-        "time": 21.28388681214963
+        "length": 44,
+        "vocabulary": 21,
+        "difficulty": 2.5833333333333335,
+        "volume": 193.26196660226546,
+        "effort": 499.2600803891858,
+        "bugs": 0.06442065553408849,
+        "time": 27.736671132732546
       },
       "params": 0,
       "line": 134,
-      "cyclomaticDensity": 20
+      "cyclomaticDensity": 16.666666666666664
     }
   ],
   "dependencies": [
@@ -613,9 +617,14 @@
       "line": 138,
       "path": "gulp-module-escomplex",
       "type": "CommonJS"
+    },
+    {
+      "line": 139,
+      "path": "gulp-module-cost",
+      "type": "CommonJS"
     }
   ],
-  "maintainability": 81.61295896624213,
+  "maintainability": 81.10863962696189,
   "params": 0.18181818181818182,
   "meta": {
     "analysis": "gulp-escomplex",

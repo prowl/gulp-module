@@ -1,14 +1,14 @@
 {
   "aggregate": {
     "sloc": {
-      "logical": 44,
+      "logical": 45,
       "physical": 148
     },
     "cyclomatic": 1,
     "halstead": {
       "operators": {
         "distinct": 6,
-        "total": 72,
+        "total": 74,
         "identifiers": [
           "var",
           "=",
@@ -19,8 +19,8 @@
         ]
       },
       "operands": {
-        "distinct": 62,
-        "total": 135,
+        "distinct": 64,
+        "total": 140,
         "identifiers": [
           "\"use strict\"",
           "gulp",
@@ -46,10 +46,12 @@
           "testTask",
           "\"Tests Finished\"",
           "\"gulp-module-unit-tests\"",
+          "\"gulp-module-coverage\"",
           "\"test\"",
           "\"Runs tests against the code\"",
           "<anonymous>",
           "\"unit\"",
+          "\"checkCoverage\"",
           "buildTask",
           "\"Build Task Finished\"",
           "\"build\"",
@@ -86,17 +88,17 @@
           "exports"
         ]
       },
-      "length": 207,
-      "vocabulary": 68,
-      "difficulty": 6.532258064516128,
-      "volume": 1260.1048081388203,
-      "effort": 8231.329795100357,
-      "bugs": 0.42003493604627345,
-      "time": 457.2960997277976
+      "length": 214,
+      "vocabulary": 70,
+      "difficulty": 6.5625,
+      "volume": 1311.666565626223,
+      "effort": 8607.811836922088,
+      "bugs": 0.43722218854207434,
+      "time": 478.2117687178938
     },
     "params": 2,
     "line": 1,
-    "cyclomaticDensity": 2.272727272727273
+    "cyclomaticDensity": 2.2222222222222223
   },
   "functions": [
     {
@@ -260,14 +262,14 @@
     {
       "name": "defineTest",
       "sloc": {
-        "logical": 2,
+        "logical": 3,
         "physical": 9
       },
       "cyclomatic": 1,
       "halstead": {
         "operators": {
           "distinct": 3,
-          "total": 5,
+          "total": 7,
           "identifiers": [
             "()",
             "[]",
@@ -275,32 +277,34 @@
           ]
         },
         "operands": {
-          "distinct": 10,
-          "total": 11,
+          "distinct": 12,
+          "total": 16,
           "identifiers": [
             "gulp",
             "config",
             "\"gulp-module-unit-tests\"",
             "require",
+            "\"gulp-module-coverage\"",
             "\"test\"",
             "\"Runs tests against the code\"",
             "<anonymous>",
             "\"unit\"",
+            "\"checkCoverage\"",
             "testTask",
             "task"
           ]
         },
-        "length": 16,
-        "vocabulary": 13,
-        "difficulty": 1.6500000000000001,
-        "volume": 59.207035490257475,
-        "effort": 97.69160855892484,
-        "bugs": 0.019735678496752493,
-        "time": 5.427311586606936
+        "length": 23,
+        "vocabulary": 15,
+        "difficulty": 2,
+        "volume": 89.85848369899593,
+        "effort": 179.71696739799185,
+        "bugs": 0.02995282789966531,
+        "time": 9.984275966555103
       },
       "params": 0,
       "line": 50,
-      "cyclomaticDensity": 50
+      "cyclomaticDensity": 33.33333333333333
     },
     {
       "name": "buildTask",
@@ -576,6 +580,11 @@
       "type": "CommonJS"
     },
     {
+      "line": 52,
+      "path": "gulp-module-coverage",
+      "type": "CommonJS"
+    },
+    {
       "line": 104,
       "path": "gulp-module-soften",
       "type": "CommonJS"
@@ -626,7 +635,7 @@
       "type": "CommonJS"
     }
   ],
-  "maintainability": 81.2010777449399,
+  "maintainability": 80.7616594318825,
   "params": 0.18181818181818182,
   "meta": {
     "analysis": "gulp-escomplex",

@@ -1,4 +1,4 @@
-### 0.3.1 (2014-09-04)
+## 0.4.0 (2014-09-04)
 
 
 #### Bug Fixes
@@ -8,6 +8,7 @@
 
 #### Features
 
+* **changelog:** Adding changelog functionality ([396e1703](https://github.com/prowl/gulp-module.git/commit/396e1703f19852c31283a013da585dd241c51e69))
 * **complexity:** Integrating the complexity gulp module ([e8eed8c5](https://github.com/prowl/gulp-module.git/commit/e8eed8c53c4cb3805b10bb92e69e7f5feb15d3d7))
 * **cost:** Adding the cost module to the gulp pipeline ([7521fb85](https://github.com/prowl/gulp-module.git/commit/7521fb852102dd5e1b2e3b015fe9f064810e9d23))
 * **coverage:** Adding code coverage enforcement ([7553f294](https://github.com/prowl/gulp-module.git/commit/7553f294279c966d37e444517c2b866e2c51ed17))
@@ -18,4 +19,5 @@
 * **plato:** Adding the plato integration ([cc313a0e](https://github.com/prowl/gulp-module.git/commit/cc313a0ee67a4d77635d55595e967dc7abac18b2))
 * **size:** Adding size to the gulp toolchain ([6d441cca](https://github.com/prowl/gulp-module.git/commit/6d441cca03aa946de88084a220f2747fb28d742e))
 * **unit tests:** Integrating unit tests module ([3d9cbd2b](https://github.com/prowl/gulp-module.git/commit/3d9cbd2b2cab0c2e6844e8d2545132c5d30b3e9f))
+
 

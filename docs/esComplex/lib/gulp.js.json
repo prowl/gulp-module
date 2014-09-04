@@ -1,14 +1,14 @@
 {
   "aggregate": {
     "sloc": {
-      "logical": 45,
+      "logical": 47,
       "physical": 148
     },
     "cyclomatic": 1,
     "halstead": {
       "operators": {
         "distinct": 6,
-        "total": 74,
+        "total": 78,
         "identifiers": [
           "var",
           "=",
@@ -19,8 +19,8 @@
         ]
       },
       "operands": {
-        "distinct": 64,
-        "total": 140,
+        "distinct": 68,
+        "total": 150,
         "identifiers": [
           "\"use strict\"",
           "gulp",
@@ -54,10 +54,14 @@
           "\"checkCoverage\"",
           "buildTask",
           "\"Build Task Finished\"",
+          "\"gulp-module-changelog\"",
+          "\"gulp-module-todos\"",
           "\"build\"",
           "\"Workflow to build the module\"",
           "\"lint\"",
           "\"complexity\"",
+          "\"changelog\"",
+          "\"todo\"",
           "lintTask",
           "\"Finished Linting\"",
           "\"gulp-module-soften\"",
@@ -88,17 +92,17 @@
           "exports"
         ]
       },
-      "length": 214,
-      "vocabulary": 70,
-      "difficulty": 6.5625,
-      "volume": 1311.666565626223,
-      "effort": 8607.811836922088,
-      "bugs": 0.43722218854207434,
-      "time": 478.2117687178938
+      "length": 228,
+      "vocabulary": 74,
+      "difficulty": 6.61764705882353,
+      "volume": 1415.7553673634009,
+      "effort": 9368.969342846036,
+      "bugs": 0.4719184557878003,
+      "time": 520.4982968247798
     },
     "params": 2,
     "line": 1,
-    "cyclomaticDensity": 2.2222222222222223
+    "cyclomaticDensity": 2.127659574468085
   },
   "functions": [
     {
@@ -346,14 +350,14 @@
     {
       "name": "defineBuild",
       "sloc": {
-        "logical": 1,
+        "logical": 3,
         "physical": 16
       },
       "cyclomatic": 1,
       "halstead": {
         "operators": {
           "distinct": 3,
-          "total": 3,
+          "total": 7,
           "identifiers": [
             "()",
             "[]",
@@ -361,31 +365,37 @@
           ]
         },
         "operands": {
-          "distinct": 9,
-          "total": 9,
+          "distinct": 15,
+          "total": 19,
           "identifiers": [
+            "gulp",
+            "config",
+            "\"gulp-module-changelog\"",
+            "require",
+            "\"gulp-module-todos\"",
             "\"build\"",
             "\"Workflow to build the module\"",
             "<anonymous>",
             "\"lint\"",
             "\"complexity\"",
             "\"test\"",
+            "\"changelog\"",
+            "\"todo\"",
             "buildTask",
-            "gulp",
             "task"
           ]
         },
-        "length": 12,
-        "vocabulary": 12,
-        "difficulty": 1.5,
-        "volume": 43.01955000865388,
-        "effort": 64.52932501298082,
-        "bugs": 0.014339850002884626,
-        "time": 3.5849625007211565
+        "length": 26,
+        "vocabulary": 18,
+        "difficulty": 1.9,
+        "volume": 108.41805003750011,
+        "effort": 205.9942950712502,
+        "bugs": 0.036139350012500036,
+        "time": 11.444127503958345
       },
       "params": 0,
       "line": 73,
-      "cyclomaticDensity": 100
+      "cyclomaticDensity": 33.33333333333333
     },
     {
       "name": "lintTask",
@@ -585,6 +595,16 @@
       "type": "CommonJS"
     },
     {
+      "line": 74,
+      "path": "gulp-module-changelog",
+      "type": "CommonJS"
+    },
+    {
+      "line": 75,
+      "path": "gulp-module-todos",
+      "type": "CommonJS"
+    },
+    {
       "line": 104,
       "path": "gulp-module-soften",
       "type": "CommonJS"
@@ -635,7 +655,7 @@
       "type": "CommonJS"
     }
   ],
-  "maintainability": 80.7616594318825,
+  "maintainability": 79.96142147344354,
   "params": 0.18181818181818182,
   "meta": {
     "analysis": "gulp-escomplex",

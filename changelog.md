@@ -1,3 +1,11 @@
+## 0.4.2 (2014-09-05)
+
+
+#### Features
+
+* **contrib:** Adding contributor list generation ([f896e15f](https://github.com/prowl/gulp-module.git/commit/f896e15f1ffdd621dcdfbf62ccc0fee7843cf3bf))
+
+
 ### 0.4.1 (2014-09-04)
 
 
